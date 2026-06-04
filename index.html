@@ -187,75 +187,19 @@
         <h2 class="section-title text-center"><span class="gradient-text">Academic Dashboard</span></h2>
         <p class="section-subtitle text-center">Core courses, engineering skills, and focus domains.</p>
 
-        <div class="academics-grid">
-          <!-- Coursework Card -->
-          <div class="dashboard-panel coursework-panel reveal-item">
-            <div class="panel-header">
-              <i data-lucide="book-open" class="panel-icon"></i>
-              <h3>Key Coursework</h3>
-            </div>
-            <div class="course-list">
-              <div class="course-item">
-                <span class="course-code">CSE201</span>
-                <span class="course-name">Data Structures</span>
-                <span class="course-grade">A+</span>
-              </div>
-              <div class="course-item">
-                <span class="course-code">CSE202</span>
-                <span class="course-name">Object-Oriented Programming</span>
-                <span class="course-grade">A+</span>
-              </div>
-              <div class="course-item">
-                <span class="course-code">CSE301</span>
-                <span class="course-name">Computer Architecture</span>
-                <span class="course-grade">A0</span>
-              </div>
-              <div class="course-item">
-                <span class="course-code">CSE302</span>
-                <span class="course-name">Operating Systems</span>
-                <span class="course-grade">A+</span>
-              </div>
-              <div class="course-item">
-                <span class="course-code">CSE303</span>
-                <span class="course-name">Database Systems</span>
-                <span class="course-grade">A0</span>
-              </div>
-            </div>
-          </div>
-
+        <div class="academics-grid" style="display: flex; justify-content: center;">
           <!-- Skills Card -->
-          <div class="dashboard-panel skills-panel reveal-item">
+          <div class="dashboard-panel skills-panel reveal-item" style="max-width: 600px; width: 100%;">
             <div class="panel-header">
               <i data-lucide="code-2" class="panel-icon"></i>
               <h3>Technical Competencies</h3>
             </div>
-            <div class="skills-wrapper">
+            <div class="skills-wrapper" style="text-align: center;">
               <div class="skill-category">
-                <h4>Languages</h4>
-                <div class="skill-tags">
-                  <span class="tag">C / C++</span>
-                  <span class="tag">Python</span>
-                  <span class="tag">Java</span>
-                  <span class="tag">JavaScript (ES6+)</span>
-                  <span class="tag">SQL</span>
-                </div>
-              </div>
-              <div class="skill-category">
-                <h4>Technologies & Frameworks</h4>
-                <div class="skill-tags">
-                  <span class="tag">Node.js</span>
-                  <span class="tag">React / CSS3</span>
-                  <span class="tag">Flask / Django</span>
-                  <span class="tag">MySQL</span>
-                  <span class="tag">Git & GitHub</span>
-                </div>
-              </div>
-              <div class="skill-category">
-                <h4>Operating Systems</h4>
-                <div class="skill-tags">
-                  <span class="tag">Ubuntu / Debian Linux</span>
-                  <span class="tag">macOS</span>
-                  <span class="tag">Windows Shell</span>
+                <div class="skill-tags" style="justify-content: center; gap: 16px;">
+                  <span class="tag" style="font-size: 1.1rem; padding: 10px 20px;">C++</span>
+                  <span class="tag" style="font-size: 1.1rem; padding: 10px 20px;">Java</span>
+                  <span class="tag" style="font-size: 1.1rem; padding: 10px 20px;">C</span>
                 </div>
               </div>
             </div>
@@ -414,39 +358,13 @@
             </div>
             <div class="timeline-content">
               <div class="timeline-date">2026 - Present</div>
-              <h3>KU-DEV Computer Engineering Club</h3>
+              <h3>KU-DEV Computer Science & Engineering Club</h3>
               <span class="timeline-role">Active Dev Member</span>
-              <p>Participate in university web-programming study groups. Co-founded a campus community repository to share class project solutions and programming guides.</p>
+              <p>Participate in university web-programming study groups and coding circles with other students.</p>
             </div>
           </div>
 
           <!-- Timeline Item 2 -->
-          <div class="timeline-item reveal-item">
-            <div class="timeline-dot">
-              <i data-lucide="trophy"></i>
-            </div>
-            <div class="timeline-content">
-              <div class="timeline-date">Spring 2026</div>
-              <h3>Konkuk University CE Hackathon</h3>
-              <span class="timeline-role">Second Place Team</span>
-              <p>Teamed up with fellow students to build a real-time IoT classroom reservation tool utilizing microcontrollers and WebSockets within 36 hours.</p>
-            </div>
-          </div>
-
-          <!-- Timeline Item 3 -->
-          <div class="timeline-item reveal-item">
-            <div class="timeline-dot">
-              <i data-lucide="users"></i>
-            </div>
-            <div class="timeline-content">
-              <div class="timeline-date">Spring 2026</div>
-              <h3>CE Student Council Media Team</h3>
-              <span class="timeline-role">Media Coordinator</span>
-              <p>Designed graphic assets and informational sheets for department festivals, student meetings, and academic tutoring seminars.</p>
-            </div>
-          </div>
-
-          <!-- Timeline Item 4 -->
           <div class="timeline-item reveal-item">
             <div class="timeline-dot">
               <i data-lucide="languages"></i>
@@ -462,88 +380,7 @@
       </div>
     </section>
 
-    <!-- Gallery / Moments Section -->
-    <section class="gallery-section" id="gallery">
-      <div class="container">
-        <h2 class="section-title text-center"><span class="gradient-text">Campus Gallery</span></h2>
-        <p class="section-subtitle text-center">Visual snippets of student activities and favorite spots around Konkuk.</p>
 
-        <div class="gallery-grid">
-          <!-- Card 1 -->
-          <div class="gallery-card reveal-item">
-            <div class="gallery-img-wrap">
-              <svg viewBox="0 0 350 250" class="gallery-svg">
-                <defs>
-                  <linearGradient id="gal1" x1="0%" y1="0%" x2="100%" y2="100%">
-                    <stop offset="0%" stop-color="#3b82f6" />
-                    <stop offset="100%" stop-color="#06b6d4" />
-                  </linearGradient>
-                </defs>
-                <rect width="100%" height="100%" fill="url(#gal1)" />
-                <path d="M 0,250 L 100,150 L 180,200 L 280,120 L 350,250 Z" fill="rgba(255,255,255,0.2)" />
-                <circle cx="280" cy="70" r="25" fill="#fef08a" opacity="0.8" />
-                <text x="20" y="220" fill="white" font-family="sans-serif" font-weight="600" font-size="14">Ilkam Lake Views</text>
-              </svg>
-            </div>
-            <div class="gallery-desc">
-              <h4>Ilkam Lake (일감호)</h4>
-              <p>The iconic lake at the heart of Konkuk University. The perfect spot to clear your head after database lectures.</p>
-            </div>
-          </div>
-
-          <!-- Card 2 -->
-          <div class="gallery-card reveal-item">
-            <div class="gallery-img-wrap">
-              <svg viewBox="0 0 350 250" class="gallery-svg">
-                <defs>
-                  <linearGradient id="gal2" x1="0%" y1="0%" x2="100%" y2="100%">
-                    <stop offset="0%" stop-color="#8b5cf6" />
-                    <stop offset="100%" stop-color="#d946ef" />
-                  </linearGradient>
-                </defs>
-                <rect width="100%" height="100%" fill="url(#gal2)" />
-                <g fill="none" stroke="rgba(255,255,255,0.25)" stroke-width="2">
-                  <circle cx="175" cy="125" r="90" />
-                  <circle cx="175" cy="125" r="60" />
-                  <circle cx="175" cy="125" r="30" />
-                  <line x1="175" y1="15" x2="175" y2="235" />
-                  <line x1="65" y1="125" x2="285" y2="125" />
-                </g>
-                <text x="20" y="220" fill="white" font-family="sans-serif" font-weight="600" font-size="14">Late Night Coding</text>
-              </svg>
-            </div>
-            <div class="gallery-desc">
-              <h4>Engineering Hall 2b Lab</h4>
-              <p>Where code compiles and coffee runs out. Many lines of C++ were debugged here until dawn.</p>
-            </div>
-          </div>
-
-          <!-- Card 3 -->
-          <div class="gallery-card reveal-item">
-            <div class="gallery-img-wrap">
-              <svg viewBox="0 0 350 250" class="gallery-svg">
-                <defs>
-                  <linearGradient id="gal3" x1="0%" y1="0%" x2="100%" y2="100%">
-                    <stop offset="0%" stop-color="#f59e0b" />
-                    <stop offset="100%" stop-color="#10b981" />
-                  </linearGradient>
-                </defs>
-                <rect width="100%" height="100%" fill="url(#gal3)" />
-                <rect x="50" y="60" width="250" height="130" rx="10" fill="rgba(0,0,0,0.15)" stroke="rgba(255,255,255,0.3)" stroke-width="4" />
-                <line x1="50" y1="125" x2="300" y2="125" stroke="rgba(255,255,255,0.3)" stroke-width="2" />
-                <text x="175" y="105" text-anchor="middle" fill="white" font-family="sans-serif" font-weight="bold" font-size="18">HACKATHON</text>
-                <text x="175" y="160" text-anchor="middle" fill="#a7f3d0" font-family="sans-serif" font-weight="500" font-size="12">COMPILING SOLUTIONS</text>
-                <text x="20" y="220" fill="white" font-family="sans-serif" font-weight="600" font-size="14">Hackathon Dev Sprints</text>
-              </svg>
-            </div>
-            <div class="gallery-desc">
-              <h4>Hackathon Sprints</h4>
-              <p>Fast-paced, team collaborations. Creating solutions to real campus challenges under tight deadlines.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
 
     <!-- Contact Section -->
     <section class="contact-section" id="contact">
