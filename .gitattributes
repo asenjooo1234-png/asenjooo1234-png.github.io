@@ -1,0 +1,10 @@
+# Set default behavior to automatic text normalization
+* text=auto
+
+# Enforce LF (Unix) line endings for web and markdown source files
+*.html text eol=lf
+*.css text eol=lf
+*.js text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
