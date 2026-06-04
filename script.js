@@ -61,7 +61,7 @@ document.addEventListener('DOMContentLoaded', () => {
      ========================================================================== */
   const typingTextElement = document.getElementById('typing-text');
   const roles = [
-    "Computer Engineering Student",
+    "Computer Science & Engineering Student",
     "Software Developer",
     "System Programming Enthusiast",
     "Creative Problem Solver"

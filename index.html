@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Personal portfolio and student life showcase of a Computer Engineering student at Konkuk University. Explore projects, academics, and campus activities.">
-  <title>Ulziibat Baasan-Ochir | Konkuk University Computer Engineering</title>
+  <meta name="description" content="Personal portfolio and student life showcase of a Computer Science and Engineering student at Konkuk University. Explore projects, academics, and campus activities.">
+  <title>Ulziibat Baasan-Ochir | Konkuk University Computer Science and Engineering</title>
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,7 +18,18 @@
   <header class="navbar" id="site-header">
     <div class="nav-container">
       <a href="#" class="logo" id="nav-logo">
-        <span class="logo-accent">KU.</span>CE
+        <svg class="nav-logo-svg" viewBox="0 0 40 40" width="36" height="36" style="margin-right: 8px;">
+          <defs>
+            <linearGradient id="kuGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#135836" />
+              <stop offset="100%" stop-color="#1e7d4d" />
+            </linearGradient>
+          </defs>
+          <circle cx="20" cy="20" r="18" fill="url(#kuGrad)" />
+          <path d="M12,11 L28,11 L28,19 C28,25 20,29 20,29 C20,29 12,25 12,19 Z" fill="none" stroke="#ffffff" stroke-width="2" stroke-linejoin="round" />
+          <path d="M16,16 L14,18 L16,20 M24,16 L26,18 L24,20 M19,15 L21,21" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+        <span class="logo-accent">KU.</span>CSE
       </a>
       
       <!-- Desktop Nav Link Menu -->
@@ -77,7 +88,7 @@
             I am a <span id="typing-text" class="typing-text"></span><span class="cursor">|</span>
           </h2>
           <p class="hero-description reveal-item">
-            Currently pursuing a degree in <strong>Computer Engineering</strong> at Konkuk University (KU) in Seoul. I enjoy solving complex problems, building system tools, and designing interactive web applications. Welcome to my digital campus portfolio!
+            Currently pursuing a degree in <strong>Computer Science and Engineering</strong> at Konkuk University (KU) in Seoul. I enjoy solving complex problems, building system tools, and designing interactive web applications. Welcome to my digital campus portfolio!
           </p>
           <div class="hero-actions reveal-item">
             <a href="#projects" class="btn btn-primary" id="hero-explore-btn">
@@ -103,7 +114,7 @@
               <p class="terminal-line"><span class="t-comment">// Initialize student profile</span></p>
               <p class="terminal-line"><span class="t-keyword">const</span> student = <span class="t-keyword">new</span> <span class="t-type">Student</span>({</p>
               <p class="terminal-line indent-1">name: <span class="t-string">"Ulziibat Baasan-Ochir"</span>,</p>
-              <p class="terminal-line indent-1">major: <span class="t-string">"Computer Engineering"</span>,</p>
+              <p class="terminal-line indent-1">major: <span class="t-string">"Computer Science and Engineering"</span>,</p>
               <p class="terminal-line indent-1">expectedGrad: <span class="t-number">2030</span>,</p>
               <p class="terminal-line indent-1">location: <span class="t-string">"Seoul, South Korea"</span></p>
               <p class="terminal-line">});</p>
@@ -131,7 +142,7 @@
               <i data-lucide="user-check"></i>
             </div>
             <h3>My Journey</h3>
-            <p>I started my journey in Computer Engineering because of my curiosity about how computing systems interact from the low level up to high-level web interfaces. At Konkuk University, I focus on system design, database administration, and frontend ergonomics. I love working in environments that challenge my technical problem-solving capabilities.</p>
+            <p>Originally from <strong>Ulaanbaatar, Mongolia</strong>, I moved to South Korea on November 30, 2023. I spent my first year and a half diving deep into the Korean language and culture, discovering a strong fascination with Korea's tech ecosystem. In Fall 2025, I began my studies in <strong>Computer Science and Engineering</strong> at Konkuk University. I love exploring system programming, web development, and bridging different cultures through technology.</p>
             <div class="student-meta-list">
               <div class="meta-item">
                 <i data-lucide="map-pin"></i>
@@ -434,6 +445,19 @@
               <p>Designed graphic assets and informational sheets for department festivals, student meetings, and academic tutoring seminars.</p>
             </div>
           </div>
+
+          <!-- Timeline Item 4 -->
+          <div class="timeline-item reveal-item">
+            <div class="timeline-dot">
+              <i data-lucide="languages"></i>
+            </div>
+            <div class="timeline-content">
+              <div class="timeline-date">Dec 2023 - May 2025</div>
+              <h3>Korean Language Immersion</h3>
+              <span class="timeline-role">Seoul National University (SNU)</span>
+              <p>Relocated from Ulaanbaatar, Mongolia to Seoul. Completed 1.5 years of intensive language studies at the SNU Language Education Institute, establishing advanced proficiency for college lectures.</p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -588,8 +612,15 @@
   <footer class="site-footer">
     <div class="container footer-container">
       <div class="footer-brand">
-        <a href="#" class="logo"><span class="logo-accent">KU.</span>CE</a>
-        <p>Konkuk University Computer Engineering Student Portfolio</p>
+        <a href="#" class="logo" style="display: flex; align-items: center; justify-content: center; gap: 8px;">
+          <svg class="nav-logo-svg" viewBox="0 0 40 40" width="30" height="30">
+            <circle cx="20" cy="20" r="18" fill="#135836" />
+            <path d="M12,11 L28,11 L28,19 C28,25 20,29 20,29 C20,29 12,25 12,19 Z" fill="none" stroke="#ffffff" stroke-width="2" stroke-linejoin="round" />
+            <path d="M16,16 L14,18 L16,20 M24,16 L26,18 L24,20 M19,15 L21,21" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+          <span><span class="logo-accent">KU.</span>CSE</span>
+        </a>
+        <p>Konkuk University Computer Science and Engineering Student Portfolio</p>
       </div>
       <div class="footer-links">
         <a href="#hero">Home</a>
